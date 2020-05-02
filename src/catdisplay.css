@@ -1,0 +1,27 @@
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.tag{
+    position: absolute;
+    padding: 10px;
+    /* margin-top:5px; */
+    background-color: lawngreen;
+    color:#000000;
+    margin-top: 0px;
+    font-size: small;
+}
+.item{
+    text-decoration: none;
+   
+}
+.item + .item{
+    margin-left: 10px;
+}
+.item-image{
+    box-shadow: 5px lawngreen;
+    border-radius: 15px;
+}

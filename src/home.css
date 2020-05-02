@@ -1,0 +1,18 @@
+.home{
+
+}
+.post-recent{
+    display: flex;
+    /* justify-content: center; */
+}
+.post-recent > div{
+    margin:50px 10px 0px 10px;
+}
+.random-post{
+    flex-basis:60%;
+    text-align:left;
+}
+.desc{
+   text-align: left;
+
+}

@@ -1,0 +1,26 @@
+.cat-items{
+    display: flex;
+    justify-content: center;
+}
+.cat-info{
+    text-align: left;
+}
+.cat-item{
+    font-size: small;
+    flex-basis: 2%;
+}
+.cat-item > div {
+    background-color: rgb(194, 189, 189);
+    padding:0px
+}
+.cat-item > img{
+   
+}
+.cat-item > div>h5{
+    margin:0;
+    padding:0px
+}
+.cat-item > div > p {
+    margin:0;
+    padding:0px
+}

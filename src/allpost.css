@@ -1,0 +1,15 @@
+.all-post{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+}
+.post-title{
+    position: absolute;
+    margin-top: 100px;
+    padding-left: 10px;
+    color:lawngreen
+}
+.post{
+    margin:15px;
+}

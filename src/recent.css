@@ -1,0 +1,17 @@
+.recent{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    box-shadow: 2px 2px 2px 2px #000000;
+}
+.card{
+    display:flex;
+    align-items: stretch;
+    /* justify-content: center; */
+    padding:10px;
+}
+.card-text{
+    font-size: small;
+    text-align: justify;
+    padding:10px;
+}
