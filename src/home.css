@@ -8,6 +8,9 @@
 .post-recent > div{
     margin:50px 10px 0px 10px;
 }
+img{
+    border-radius: 15px;
+}
 .random-post{
     flex-basis:60%;
     text-align:left;

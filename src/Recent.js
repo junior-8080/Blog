@@ -4,9 +4,9 @@ import "./recent.css"
 
 
 function Recent(props) {
-    let recent = props.result.map(item => {
+    let recent = props.result.map((item,i) => {
         return(
-            <div className="card" key={item.fields.sys.id}>
+            <div className="card" key={i}>
                 <div>
                     <h5 className="tag">{item.fields.tags[0]}</h5>
                     <img src={`https:`+item.fields.heroImage.fields.file.url} width="150px" height="150px" />
