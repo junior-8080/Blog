@@ -10,7 +10,7 @@ function Recent(props) {
             <div className="card" key={i}>
                 <div>
                     <h5 className="tag">{item.fields.tags[0]}</h5>
-                    <Link>
+                    <Link to={`/post/${item.fields.id}`}>
                      <img src={`https:`+item.fields.heroImage.fields.file.url} width="150px" height="150px" alt={`recent`+i}/>
                     </Link>
                 </div>
