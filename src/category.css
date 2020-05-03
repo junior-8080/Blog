@@ -1,6 +1,7 @@
 .cat-items{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    height: 70vh;
 }
 .cat-info{
     text-align: left;
@@ -8,6 +9,8 @@
 .cat-item{
     font-size: small;
     flex-basis: 2%;
+    text-decoration: none;
+    color:#000000;
 }
 .cat-item > div {
     background-color: rgb(194, 189, 189);

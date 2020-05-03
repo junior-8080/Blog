@@ -5,7 +5,7 @@ import Allpost from "./AllPost"
 import Recent  from "./Recent"
 import Footer from  "./Footer"
 import CategoryDisplay from  "./CategoryDisplay"
-import Category from "./Category"
+// import Category from "./Category"
 import "./home.css"
 
 const contentful = require('contentful')

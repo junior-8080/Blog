@@ -1,9 +1,10 @@
 import React, { Component } from "react"
+import {Link} from "react-router-dom"
 
 
 import Header from "./Header"
 import Footer from "./Footer"
-import Recent from "./Recent"
+// import Recent from "./Recent"
 import CategoryInfo from "./CategoryInfo"
 import "./category.css"
 
@@ -68,14 +69,14 @@ class Category extends Component {
     render() {
         let catPost = this.state.result.map((item,i) => {
             return(
-                <div className="cat-item">
-                    <img src={`https:`+item.fields.heroImage.fields.file.url} width="200px" height="200px" />
+                <Link to={`/post/${item.sys.id}`} className="cat-item">
+                    <img src={`https:`+item.fields.heroImage.fields.file.url} width="200px" height="200px" alt={`cat`+i} />
                     <div>
                         <h5>{item.fields.title}</h5>
                         <p>{item.fields.description}</p>
                     </div>
                     
-                </div>
+                </Link>
             )
         })
         return(

@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 
 import "./recent.css"
 
@@ -9,7 +10,9 @@ function Recent(props) {
             <div className="card" key={i}>
                 <div>
                     <h5 className="tag">{item.fields.tags[0]}</h5>
-                    <img src={`https:`+item.fields.heroImage.fields.file.url} width="150px" height="150px" />
+                    <Link>
+                     <img src={`https:`+item.fields.heroImage.fields.file.url} width="150px" height="150px" alt={`recent`+i}/>
+                    </Link>
                 </div>
                 <div className="card-text">
                     {

@@ -1,7 +1,7 @@
 .recent{
     display: flex;
     flex-direction: column;
-    flex-basis: 30%;
+    flex-basis: 15%;
     box-shadow: 2px 2px 2px 2px #000000;
 }
 .card{
@@ -9,6 +9,8 @@
     align-items: stretch;
     /* justify-content: center; */
     padding:10px;
+    text-decoration: none;
+    color:#000000;
 }
 .card-text{
     font-size: small;
