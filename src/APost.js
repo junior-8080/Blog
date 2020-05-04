@@ -2,6 +2,7 @@ import React, { Component } from "react"
 
 import Header from "./Header"
 import Footer from "./Footer"
+import "./apost.css"
 
 const contentful = require('contentful')
 
@@ -37,8 +38,8 @@ class APost extends Component {
                 {
                  this.state.result.fields ?
                 <div className="post">
-                    <div>
-                        <img src={`https:`+this.state.result.fields.heroImage.fields.file.url} alt="apost" />
+                    <div className="image">
+                        <img src={`https:`+this.state.result.fields.heroImage.fields.file.url} alt="apost"  width="100%" height="100%"/>
                     </div>
                     <div class="post-body">
                         <h2 className="title">{this.state.result.fields.title}</h2>

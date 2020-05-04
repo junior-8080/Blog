@@ -69,7 +69,7 @@ class Category extends Component {
     render() {
         let catPost = this.state.result.map((item,i) => {
             return(
-                <Link to={`/post/${item.sys.id}`} className="cat-item">
+                <Link to={`/post/${item.sys.id}`} className="cat-item" key={item.id + `cat`}>
                     <img src={`https:`+item.fields.heroImage.fields.file.url} width="200px" height="200px" alt={`cat`+i} />
                     <div>
                         <h5>{item.fields.title}</h5>
