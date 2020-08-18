@@ -12,7 +12,7 @@ import { Container,Row, Col } from "reactstrap"
 function CategoryDisplay() {
     return(
         <Container fluid={true}>
-             <h3>Categories</h3>
+             <h2>Categories</h2>
             <Row className="categories">
                  <Col md={2} sm={4}>
                     <Link  to="/category/programming" className="item">

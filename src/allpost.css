@@ -1,15 +1,22 @@
 .all-post{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
     margin-top: 50px;
 }
 .post-title{
-    position: absolute;
-    margin-top: 100px;
-    padding-left: 10px;
     color:lawngreen
 }
-.post{
-    margin:15px;
+  /* margin:15px; */}
+.description{
+    text-align:left;
+    
+}
+
+.my-posts {
+    margin-top:.5rem;
+    /* padding:1rem; */
 }

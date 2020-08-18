@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import logo from './logo.svg'
+import './header.css'
 
 const Navbars = (props) => {
   const [collapsed, setCollapsed] = useState(true);
@@ -8,8 +9,8 @@ const Navbars = (props) => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-      <div>
-        <Navbar color="faded" light expand="md">
+      <div className="nav-container">
+        <Navbar  light expand="md">
             <NavbarBrand href="/" className="mr-auto">
                 <img src={logo} width="50px" height="50px" />
             </NavbarBrand>

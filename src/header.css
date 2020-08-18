@@ -1,0 +1,8 @@
+.nav-container{
+    background-color:#fff;
+    position: fixed;
+    z-index:1;
+}
+.nav-link{
+    font-weight: 700;
+}

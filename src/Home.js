@@ -51,24 +51,6 @@ class  Home extends Component {
             <div className="home">
                 <Navbars />
                 <CategoryDisplay />
-                {/* {
-                this.state.result.length !== 0?
-                <div className="post-recent">
-                    <div className="random-post">
-                        <div>
-                            <h5 className="tag">{firstItem.fields.tags[0]}</h5>
-                            <img src={`https:` + firstItem.fields.heroImage.fields.file.url} alt="img" width="100%" height="600px" />
-                        </div>
-                        <div className="desc">
-                            <h2>{firstItem.fields.title}</h2>
-                            <p>{firstItem.fields.description}</p>
-                        </div>
-                    </div>
-                    <Recent result={this.state.result} />
-                </div>
-                :null
-                    
-                } */}
                 <Allpost result={this.state.result} />
                 <Footer />
             </div>
