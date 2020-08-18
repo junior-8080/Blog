@@ -15,9 +15,9 @@
     font-size: small;
 }
 .item{
-    text-decoration: none;
-   
+    text-decoration: none; 
 }
+
 .item + .item{
     margin-left: 10px;
 }

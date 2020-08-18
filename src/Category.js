@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import {Link} from "react-router-dom"
 
 
-import Header from "./Header"
+import Navbars from "./Navbar"
 import Footer from "./Footer"
 // import Recent from "./Recent"
 import CategoryInfo from "./CategoryInfo"
@@ -81,7 +81,7 @@ class Category extends Component {
         })
         return(
             <div className="category">
-                <Header />
+                <Navbars/>
                 <CategoryInfo />
                 <div className="cat-items">
                     {

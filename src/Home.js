@@ -1,11 +1,11 @@
 import React, { Component } from "react"
 
-import Header from "./Header"
+import Navbars from "./Navbar"
 import Allpost from "./AllPost"
 import Recent  from "./Recent"
 import Footer from  "./Footer"
 import CategoryDisplay from  "./CategoryDisplay"
-// import Category from "./Category"
+
 import "./home.css"
 
 const contentful = require('contentful')
@@ -49,9 +49,9 @@ class  Home extends Component {
         return(
 
             <div className="home">
-                <Header />
+                <Navbars />
                 <CategoryDisplay />
-                {
+                {/* {
                 this.state.result.length !== 0?
                 <div className="post-recent">
                     <div className="random-post">
@@ -68,7 +68,7 @@ class  Home extends Component {
                 </div>
                 :null
                     
-                }
+                } */}
                 <Allpost result={this.state.result} />
                 <Footer />
             </div>

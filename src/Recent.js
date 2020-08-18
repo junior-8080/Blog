@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "react-router-dom"
 
-import "./recent.css"
+// import "./recent.css"
 
 
 function Recent(props) {
